@@ -1,3 +1,1 @@
-gcc $1 -o ctemp.o
-chmod +x ctemp.o
-./ctemp.o
+gcc $1 -o ctemp.o && chmod +x ctemp.o && ./ctemp.o && rm ctemp.o
